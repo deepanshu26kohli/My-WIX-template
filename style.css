@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.my-fav{
+    width: 5rem;
+}
+.image-box{
+    height: 88vh;
+    background-image: url(https://static.wixstatic.com/media/a38016_9bd9d7a9ccb44689ba0771fd8e44d08e.jpg/v1/fill/w_1899,h_750,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/a38016_9bd9d7a9ccb44689ba0771fd8e44d08e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    background-position: center;
+}
+.img-text{
+    font-size: 4rem;
+    color: white;
+}
+.plus{
+    color: yellow;
+    font-size: 4rem;
+    -webkit-text-stroke: .5rem yellow;
+}
+.italic-text-img{
+    font-size: 2rem;
+    color: white;
+}
+.img-btn-box{
+    width: 25vw;
+}
+.btn-img{
+    background: none;
+    color: white;
+    border: .1rem solid white;
+}
+.btn-img:hover{
+    color: yellow;
+    border: .1rem solid yellow;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.yellow-box{
+    /* height: 40vh; */
+    background-color: rgb(253,211,6);
+}
+.yellow-img{
+    border-radius: 50%;
+    background-color: white;
+    height: 20vh;
+    width: 20vh;
+}
+.about-plus-btn{
+    font-size: 4rem;
+    -webkit-text-stroke: .1rem black
+}
